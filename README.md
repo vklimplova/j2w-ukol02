@@ -88,7 +88,7 @@ Uživatel by totiž mohl do kódu podstrčit třeba značku `<script>` a spustit
 
 ### Odkazy
 
-* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2022-podzim/java-2-online/lekce-2.html)
+* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2023-podzim/java-2-online/lekce-2.html)
 * Java SE 17 [Javadoc](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 11.
 * Dokumentace [Spring Boot](https://spring.io/projects/spring-boot#learn) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
 * Dokumentace [Spring Framework](https://spring.io/projects/spring-framework#learn) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
