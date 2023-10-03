@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
+    <style>
+        p {
+            background-image: ${obrazek};
+        }
+    </style>
 </head>
-<body style="background-image: url(https://source.unsplash.com/RFHFV7lVQBY/1600x900);">
-
-<blockquote>${citat}<blockquote>
-
+<body>
+    <div>Dnešní citát: ${citat}</div>
 </body>
 </html>
