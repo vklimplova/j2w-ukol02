@@ -15,9 +15,9 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+   /* background-color: black;
+   // background-repeat: no-repeat;
+   // background-size: cover; */
 }
 
 blockquote {

@@ -36,11 +36,11 @@ public class MainController {
     private final Random random = new Random();
     @GetMapping("/")
     public ModelAndView citaty() throws IOException {
-        int nahodneCislo = random.nextInt(1) + 1;
+        int nahodneCislo = random.nextInt(3) + 1;
 
         ModelAndView result = new ModelAndView("index");
         result.addObject("citat", readAllLines());
-        result.addObject("obrazek",String.format("/static/images/obrazek-%d.jpg", nahodneCislo));
+        result.addObject("obrazek",String.format("/images/obrazek-%d.jpg", nahodneCislo));
         return result;
     }
 }
