@@ -33,15 +33,16 @@ public class MainController {
                     .collect(Collectors.toList());
         }
     }
-    //náhodné číslo pro výběr obrázku
+    //náhodné číslo pro výběr obrázku a citátu
     private final Random random = new Random();
     @GetMapping("/")
-    //exception tady poradilo IntelliJ, ale proč?
-    public ModelAndView citaty() throws IOException {
-        int nahodneCislo = random.nextInt(3) + 1;
 
+    public ModelAndView citaty() throws IOException {
+        int nahodneCislo = random.nextInt(9) + 1;
+        int nahodnyCitat = random.nextInt(7) + 1;
+//readAllLines().get(index) zajistí, že to z Listu bere jen jeden řádek
         ModelAndView result = new ModelAndView("index");
-        result.addObject("citat", readAllLines());
+        result.addObject("citat", readAllLines().get(nahodnyCitat));
         result.addObject("obrazek",String.format("/images/obrazek-%d.jpg", nahodneCislo));
         return result;
     }
