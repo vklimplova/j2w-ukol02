@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
-<body>
-<img src="${obrazek}" />
-   /* <div>Dnešní citát: ${citat}</div> */
+[#--nefunguje --]
+<body style="background-image: url(${obrazek});">
+<blockquote>${citat}</blockquote>
 </body>
 </html>

@@ -33,8 +33,10 @@ public class MainController {
                     .collect(Collectors.toList());
         }
     }
+    //náhodné číslo pro výběr obrázku
     private final Random random = new Random();
     @GetMapping("/")
+    //exception tady poradilo IntelliJ, ale proč?
     public ModelAndView citaty() throws IOException {
         int nahodneCislo = random.nextInt(3) + 1;
 
